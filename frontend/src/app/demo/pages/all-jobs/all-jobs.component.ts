@@ -20,4 +20,6 @@ export class AllJobsComponent {
     this.jobs.forEach(job => job.selected = isChecked);
   }
 
+  
+
 }

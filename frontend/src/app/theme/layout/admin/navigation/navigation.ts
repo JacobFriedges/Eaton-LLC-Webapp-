@@ -217,9 +217,15 @@ export const NavigationItems: NavigationItem[] = [
             type: 'item',
             url: '/tables/bootstrap',
            
-            
-          }
+          },  
         ]
+      },
+      { 
+        id: 'Team',
+        title: 'Team',
+        type: 'item',
+        url: '/team',
+        icon: 'feather icon-users',
       }
     ]
   },

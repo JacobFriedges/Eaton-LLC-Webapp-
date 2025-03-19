@@ -40,7 +40,11 @@ const routes: Routes = [
       {
         path: 'all-jobs',
         loadComponent: () => import('./demo/pages/all-jobs/all-jobs.component').then((c) => c.AllJobsComponent)
-      }         
+      },
+      {
+        path: 'team',
+        loadComponent: () => import('./demo/pages/team/team.component').then((c) => c.TeamComponent)
+      },
     ]
   },
   {
