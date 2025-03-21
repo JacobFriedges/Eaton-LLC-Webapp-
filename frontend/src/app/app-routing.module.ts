@@ -43,7 +43,7 @@ const routes: Routes = [
       },
       {
         path: 'team',
-        loadComponent: () => import('./demo/pages/team/team.component').then((c) => c.TeamComponent)
+        loadComponent: () => import('./demo/pages/teams/teams.component').then((c) => c.TeamsComponent)
       },
     ]
   },
