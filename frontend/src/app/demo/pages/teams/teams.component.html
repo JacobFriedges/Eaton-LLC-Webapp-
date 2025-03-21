@@ -1,11 +1,11 @@
-<p>team works!</p>
+
 <div class="row">
     <body>
         <div>
             <div class="col-xl-12">
                 <app-card cardTitle="Basic Table" [options]="false" blockClass="table-border-style">
                     <div class="table-responsive">
-                        <button mat-raised-button (click)="openDialog()" id= "invite-button">+</button>
+                        <button mat-raised-button (click)="Openpopup()" id= "invite-button">+</button>
                     <table class="table">
                         <thead>
                             <tr>
@@ -22,8 +22,6 @@
                                 <td>{{team.title}}</td>
                                 <td>{{team.email}}</td>
                                 <td>{{team.phone}}</td>
-                                
-                    
                             </tr>
                         </tbody>
                     </table>
