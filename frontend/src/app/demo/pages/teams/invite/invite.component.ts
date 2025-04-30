@@ -11,7 +11,12 @@ export class InviteComponent {
   { 
     
   }
-  
+  submitForm(): void { 
+    const formData = { 
+      
+    }
+  }
+
   closepopup()
   { 
     this.dialogRef.close()

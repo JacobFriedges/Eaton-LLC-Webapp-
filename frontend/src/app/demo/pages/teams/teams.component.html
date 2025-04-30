@@ -1,33 +1,33 @@
 
 <div class="row">
-    <body>
-        <div>
-            <div class="col-xl-12">
-                <app-card cardTitle="Basic Table" [options]="false" blockClass="table-border-style">
-                    <div class="table-responsive">
-                        <button mat-raised-button (click)="Openpopup()" id= "invite-button">+</button>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>NAME</th>
-                                <th>TITLE</th>
-                                <th>EMAIL</th>
-                                <th>PHONE NUMBER</th>
-                                
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr *ngFor="let team of teams">
-                                <td>{{team.name}} </td>
-                                <td>{{team.title}}</td>
-                                <td>{{team.email}}</td>
-                                <td>{{team.phone}}</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    </div>
-                </app-card>
-            </div>
+<body>
+<div>
+<div class="col-xl-12">
+    <app-card cardTitle="Basic Table" [options]="false" blockClass="table-border-style">
+        <div class="table-responsive">
+            <button (click)="Openpopup()" id= "invite-button">+</button>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>TITLE</th>
+                    <th>EMAIL</th>
+                    <th>PHONE NUMBER</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let team of teams">
+                    <td>{{team.name}} </td>
+                    <td>{{team.title}}</td>
+                    <td>{{team.email}}</td>
+                    <td>{{team.phone}}</td>
+                </tr>
+            </tbody>
+        </table>
         </div>
-    </body>
+    </app-card>
+</div>
+</div>
+</body>
 </div>
